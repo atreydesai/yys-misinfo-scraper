@@ -1,12 +1,12 @@
-# Fact-Checked Video Archive: 
+# Fact-Checked Video Scraper 
 
 This repo aims to create a curated archive of original videos sourced from fact-checked articles on Snopes and Politifact.  It focuses on collecting videos that have been debunked or otherwise assessed for their veracity, providing a valuable resource for researchers, journalists, and anyone interested in studying misinformation and online content analysis.
 
 ## Data & Resources
 
-*    ~~ **Google Colab Notebook:**  [https://colab.research.google.com/drive/1InR4tkoAUvFAvzfvdBp-3nz9DFtkNaZ1?usp=sharing](https://colab.research.google.com/drive/1InR4tkoAUvFAvzfvdBp-3nz9DFtkNaZ1?usp=sharing)  ~~
-    *   ~~ This notebook contains the Python code used for web scraping Snopes articles, extracting video links, downloading the videos, and generating the structured JSON data. ~~
-    * Google Colab is now deprecated. Please refer to the Python notebooks inside ./scraping/
+*   **Google Colab Notebook:**  [https://colab.research.google.com/drive/1InR4tkoAUvFAvzfvdBp-3nz9DFtkNaZ1?usp=sharing](https://colab.research.google.com/drive/1InR4tkoAUvFAvzfvdBp-3nz9DFtkNaZ1?usp=sharing)
+    *   ~~This notebook contains the Python code used for web scraping Snopes articles, extracting video links, downloading the videos, and generating the structured JSON data.~~
+    *   Google Colab is now deprecated. Please refer to the Python notebooks inside ./scraping/
 
 *   **Video Archive (Google Drive):** [https://drive.google.com/drive/folders/1Xo4YAo_WNHnhprUggGy0_He0Uhj_Mj9K?usp=sharing](https://drive.google.com/drive/folders/1Xo4YAo_WNHnhprUggGy0_He0Uhj_Mj9K?usp=sharing)
     *   This folder stores the downloaded video files.  Each video is saved with a unique filename for easy reference.
@@ -34,7 +34,7 @@ The collected data is organized in a JSON file with the following structure for 
         "download_message": null,
         "drive_path": null,
         "processing_timestamp": null
-    }
+}
 ```
 ## Other Notes
 
