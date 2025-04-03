@@ -1,11 +1,12 @@
-# Fact-Checked Video Archive:  Snopes Debunks
+# Fact-Checked Video Archive: 
 
-This repo aims to create a curated archive of original videos sourced from fact-checked articles on Snopes.com.  It focuses on collecting videos that have been debunked or otherwise assessed for their veracity, providing a valuable resource for researchers, journalists, and anyone interested in studying misinformation and online content analysis.
+This repo aims to create a curated archive of original videos sourced from fact-checked articles on Snopes and Politifact.  It focuses on collecting videos that have been debunked or otherwise assessed for their veracity, providing a valuable resource for researchers, journalists, and anyone interested in studying misinformation and online content analysis.
 
 ## Data & Resources
 
-*   **Google Colab Notebook:**  [https://colab.research.google.com/drive/1InR4tkoAUvFAvzfvdBp-3nz9DFtkNaZ1?usp=sharing](https://colab.research.google.com/drive/1InR4tkoAUvFAvzfvdBp-3nz9DFtkNaZ1?usp=sharing)
-    *   This notebook contains the Python code used for web scraping Snopes articles, extracting video links, downloading the videos, and generating the structured JSON data.
+*    ~~ **Google Colab Notebook:**  [https://colab.research.google.com/drive/1InR4tkoAUvFAvzfvdBp-3nz9DFtkNaZ1?usp=sharing](https://colab.research.google.com/drive/1InR4tkoAUvFAvzfvdBp-3nz9DFtkNaZ1?usp=sharing)  ~~
+    *   ~~ This notebook contains the Python code used for web scraping Snopes articles, extracting video links, downloading the videos, and generating the structured JSON data. ~~
+    * Google Colab is now deprecated. Please refer to the Python notebooks inside ./scraping/
 
 *   **Video Archive (Google Drive):** [https://drive.google.com/drive/folders/1Xo4YAo_WNHnhprUggGy0_He0Uhj_Mj9K?usp=sharing](https://drive.google.com/drive/folders/1Xo4YAo_WNHnhprUggGy0_He0Uhj_Mj9K?usp=sharing)
     *   This folder stores the downloaded video files.  Each video is saved with a unique filename for easy reference.
@@ -19,15 +20,21 @@ The collected data is organized in a JSON file with the following structure for 
 
 ```json
 {
-  "headline": "String",  // The title of the Snopes article.
-  "subheadline": "String",  // A short excerpt from the post.
-  "social_platform": "String",  // The platform where the video was first shared (e.g., Twitter, TikTok).
-  "rating": "String",  // The Snopes fact-check result (e.g., "False", "Miscaptioned", "True").
-  "social_link": "String",  // The direct link to the original post containing the video (e.g., a Twitter URL).
-  "download_success: Boolean", //Whether or not the video was downloadable
-  "download_message: String", //Includes ERROR messages and other outputs from CLI
-  "drive_path": "String" //Path to direct link
-}
+        "id": null,
+        "politifact_url": null,
+        "politifact_headline": null,
+        "politifact_subheadline": null,
+        "rating": null,
+        "social_link": null,
+        "social_platform": null,
+        "social_duration": null,
+        "social_text": null,
+        "external_links_info": null,
+        "download_success": null,
+        "download_message": null,
+        "drive_path": null,
+        "processing_timestamp": null
+    }
 ```
 ## Other Notes
 

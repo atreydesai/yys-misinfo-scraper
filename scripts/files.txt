@@ -1,0 +1,7 @@
+REELS:
+
+yt-dlp -x --audio-format mp3 -o "audio_temp.mp3" "https://www.instagram.com/reel/DBM-IuFgY4r/?utm_source=ig_embed"
+yt-dlp -v --no-audio -f '[ext=mp4]' -o "video_temp.mp4" ""
+ffmpeg -i video_temp.mp4 -i audio_temp.mp3 -c copy -map 0:v:0 -map 1:a:0 output.mp4
+
+https://www.instagram.com/reel/DBM-IuFgY4r/?utm_source=ig_embed

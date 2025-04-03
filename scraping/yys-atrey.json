@@ -1,0 +1,24 @@
+[
+    {
+        "snope_url": "https://www.snopes.com/fact-check/video-bugs-pringles-chip/",
+        "snope_headline": "Video of bugs on Pringles chip shows signs of staging",
+        "snope_subheadline": "The bugs in the clip appeared to be mold mites \u2014 the common name for a range of species that infest humid environments.",
+        "social_platform": "tiktok",
+        "rating": "Mixture",
+        "video_duration":"(SHOULD NOT BE OVER 10 MINUTES)", 
+        "social_link": "https://www.tiktok.com/@justmicroscope/video/7459566559070113055 ",
+        "social_text":"",
+        "external":
+            [
+                {
+                    "sentence": [{"similar": "hyperlink"}]
+                },
+                {
+                    "One popular posting of this video on Facebook received more than 15 million views.": {"posting of this video on Facebook": "hyperlink"}
+                }
+            ],
+        "download_success": true,
+        "download_message": "Successfully downloaded and renamed to MP4.",
+        "download_path": "/content/drive/MyDrive/.Research/CLIP/yooyeon-atrey/videos/video_1"
+    }
+    ]
